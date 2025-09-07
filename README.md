@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rust Crash Course
 
 [contributors-shield]: https://img.shields.io/github/contributors/cyfrin/rust-crash-course.svg?style=for-the-badge
@@ -115,3 +116,7 @@ Execute all tests in `solutions` folder
 ```shell
 find topics -type d -name solutions -exec bash -c 'cd "$0" && cargo test' {} \;
 ```
+=======
+# rust-exercises-solutionByMe
+My personal solutions to Rust programming exercises. Documenting hands-on problem solving and growth as a Rust smart contracts developer.
+>>>>>>> a709cc2250ad3e7e5a8b892a38a34212c1489c4a
