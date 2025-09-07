@@ -8,3 +8,6 @@
 // println! is a macro that prints text to the console.
 // Macros in Rust generate code at compile time and are
 // invoked with an exclamation mark (!).
+fn main(){
+    println!("Hello Rust");
+}
