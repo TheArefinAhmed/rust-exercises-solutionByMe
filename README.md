@@ -1,122 +1,79 @@
-<<<<<<< HEAD
-# Rust Crash Course
+# My Rust Crash Course Solutions
 
-[contributors-shield]: https://img.shields.io/github/contributors/cyfrin/rust-crash-course.svg?style=for-the-badge
-[contributors-url]: https://github.com/cyfrin/rust-crash-course/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/cyfrin/rust-crash-course.svg?style=for-the-badge
-[forks-url]: https://github.com/cyfrin/rust-crash-course/network/members
-[stars-shield]: https://img.shields.io/github/stars/cyfrin/rust-crash-course.svg?style=for-the-badge
-[stars-url]: https://github.com/cyfrin/rust-crash-course/stargazers
-[issues-shield]: https://img.shields.io/github/issues/cyfrin/rust-crash-course.svg?style=for-the-badge
-[issues-url]: https://github.com/cyfrin/rust-crash-course/issues
-[license-shield]: https://img.shields.io/github/license/cyfrin/rust-crash-course.svg?style=for-the-badge
-[license-url]: https://github.com/cyfrin/rust-crash-course/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+This repository contains my personal solutions to the Rust Crash Course exercises. I'm working through each section systematically to build my Rust programming skills and showcase my progress for future job opportunities.
 
-<div align="center">
+## About
 
-[![Stargazers][stars-shield]][stars-url] [![Forks][forks-shield]][forks-url] [![Contributors][contributors-shield]][contributors-url] [![Issues][issues-shield]][issues-url] [![GPLv3 License][license-shield]][license-url]
+I'm completing this course to strengthen my Rust development skills, particularly for smart contract development and systems programming. Each solution demonstrates my understanding of key Rust concepts and best practices.
 
-<p align="center">
-    <br />
-    <a href="https://cyfrin.io/">
-        <img src=".github/images/poweredbycyfrinbluehigher.png" width="145" alt=""/></a>
-            <a href="https://updraft.cyfrin.io/courses/aave-v3">
-        <img src=".github/images/coursebadge.png" width="242.3" alt=""/></a>
-    <br />
-</p>
-</div>
+## Course Structure
 
-This repository houses course resources and [discussions](https://github.com/Cyfrin/rust-crash-course/discussions) for the course.
+The course is organized into 9 main sections:
 
-Please refer to this for an in-depth explanation of the content:
+### Section 1: Course Intro (6min)
+Basic introduction and setup
 
-- [Website](https://updraft.cyfrin.io) - Join Cyfrin Updraft and enjoy 50+ hours of smart contract development courses
-- [Twitter](https://twitter.com/CyfrinUpdraft) - Stay updated with the latest course releases
-- [LinkedIn](https://www.linkedin.com/school/cyfrin-updraft/) - Add Updraft to your learning experiences
-- [Discord](https://discord.gg/cyfrin) - Join a community of 3000+ developers and auditors
-- [Codehawks](https://codehawks.com) - Smart contracts auditing competitions to help secure web3
+### Section 2: Rust Intro (18min) 
+- Hello World
+- Variables
+- Functions
 
-# Course intro
+### Section 3: Data Types (47min)
+- Scalar types
+- Tuples  
+- Arrays
+- Strings
+- Enums
+- Structs
+- Vectors
+- Hash Maps
 
-- [Course intro](./notes/course_intro.md)
-- [Setup](./notes/course_setup.md)
+### Section 4: Control Flow (15min)
+- If/else statements
+- Loops
+- Pattern matching
+- If let expressions
 
-# Rust intro
+### Section 5: Ownership (19min)
+- Stack and heap
+- Ownership rules
+- Borrowing
 
-- [Install cargo](./notes/install.md)
-- [Hello world](./topics/hello/README.md)
-- [Variable](./topics/variable/README.md)
-- [Function](./topics/function/README.md)
+### Section 6: Error Handling (8min)
+- Result and Option types
+- unwrap and expect
+- ? operator
 
-# Data types
+### Section 7: Modules (12min)
+- Module system
+- Code organization
 
-- [Scalar types](./topics/scalar/README.md)
-- [Tuple](./topics/tuple/README.md)
-- [Array](./topics/array/README.md)
-- [`String` and `&str`](./topics/string/README.md)
-- [Enum](./topics/enum_type/README.md)
-- [Struct](./topics/struct_type/README.md)
-- [Vector](./topics/vector/README.md)
-- [Hash map](./topics/hash_map/README.md)
+### Section 8: Generic Types And Traits (46min)
+- Generic types
+- Methods
+- Traits
+- Trait bounds
+- Lifetimes
+- Iterators
 
-# Control flow
+### Section 9: Async Await (14min)
+- Async programming
+- Futures
+- join! and select! macros
 
-- [If / else](./topics/if_else/README.md)
-- [Loop](./topics/for_loop/README.md)
-- [Match](./topics/pattern_match/README.md)
-- [If let](./topics/if_let/README.md)
+## How to Run Solutions
 
-# Ownership
+Each topic has its own directory under `topics/` with both exercises and solutions:
+## How to Run Solutions
 
-- [Stack and heap](./topics/stack_heap/README.md)
-- [Ownership](./topics/ownership/README.md)
-- [Borrowing rules](./topics/borrowing_rules/README.md)
+Each topic has exercises and my solutions in separate directories:
 
-# Error handling
+```bash
+# Navigate to any topic's solutions directory
+cd topics/[topic_name]/solutions
 
-- [Error handling](./topics/error/README.md)
-- [`unwrap` and `expect`](./topics/unwrap/README.md)
-- [`?`](./topics/question/README.md)
+# Run my solved code
+cargo run
 
-# Modules
-
-- [Mod](./topics/modules/README.md)
-
-# Generic types and traits
-
-- [Generic types](./topics/generic_type/README.md)
-- [Methods](./topics/method/README.md)
-- [Trait](./topics/trait_basic/README.md)
-- [Generic trait](./topics/generic_trait/README.md)
-- [Trait bound](./topics/trait_bound/README.md)
-- [Lifetime](./topics/lifetime/README.md)
-- [Iterator](./topics/iterator_adaptors/README.md)
-- [Iterator adaptors](./topics/iterator_adaptors/README.md)
-
-# Concurrency
-
-- [`async` / `await`](./topics/async_await/README.md)
-- [Thread vs `async` / `await`](./topics/async_await/README.md)
-- [`join!` and `select!` macros](./topics/join_select/README.md)
-
-# Resources
-
-- [Rust](https://www.rust-lang.org/)
-- [The Rust Programming Language](https://doc.rust-lang.org/book/)
-- [rustlings](https://github.com/rust-lang/rustlings/)
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
-- [Rust playground](https://play.rust-lang.org/)
-- [Rust Cheatsheet](https://cheats.rs/)
-
-# Notes
-
-Execute all tests in `solutions` folder
-
-```shell
-find topics -type d -name solutions -exec bash -c 'cd "$0" && cargo test' {} \;
-```
-=======
-# rust-exercises-solutionByMe
-My personal solutions to Rust programming exercises. Documenting hands-on problem solving and growth as a Rust smart contracts developer.
->>>>>>> a709cc2250ad3e7e5a8b892a38a34212c1489c4a
+# Run tests to verify solutions
+cargo test
